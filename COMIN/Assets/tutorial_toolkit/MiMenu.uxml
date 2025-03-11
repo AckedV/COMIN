@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/tutorial_toolkit/MisEstilos.uss?fileID=7433441132597879392&amp;guid=4f2f544089010434cb6a056da2c8701e&amp;type=3#MisEstilos" />
+    <engine:VisualElement name="contenedor" class="contenedor" style="flex-grow: 1;">
+        <engine:VisualElement name="izquierda" style="flex-grow: 1; max-width: 500px; min-width: 400px; height: 100%; background-color: rgba(0, 0, 0, 0.69); align-items: center;">
+            <engine:VisualElement name="logo" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Games/Whac-A-Mole/Sprites/Bomb.png?fileID=21300000&amp;guid=51f1cf4f7f0e60d429936f243c729394&amp;type=3#Bomb&quot;); background-repeat: no-repeat no-repeat; width: 315px; height: 1%; margin-top: 30px;" />
+            <engine:VisualElement name="botones" class="botones" style="flex-grow: 1;">
+                <engine:Button text="Button" name="Button" class="botones_menu" style="align-items: center; justify-content: flex-start; bottom: 0; top: 50%; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; width: 100%;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="footer" style="flex-grow: 1;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="derecha" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.81);" />
+    </engine:VisualElement>
+</engine:UXML>

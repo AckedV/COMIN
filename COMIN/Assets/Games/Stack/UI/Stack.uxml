@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Games/Stack/UI/Stack.uss?fileID=7433441132597879392&amp;guid=513616f55550d2649add6cfdff86ad65&amp;type=3#Stack" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:VisualElement name="Contenedor" style="flex-grow: 1;">
+            <engine:VisualElement name="Header" class="Header" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.67);">
+                <engine:Button text="Button" name="Button-Pause" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Game" class="Game" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.4); width: auto; height: auto; max-width: none; max-height: none;">
+                <engine:VisualElement name="Circle" class="Circle" style="flex-grow: 1; width: 50%; height: 3%; min-width: 3px; max-width: 100%; align-self: center; margin-left: 0;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
